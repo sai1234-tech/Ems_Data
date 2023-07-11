@@ -391,6 +391,27 @@ select {
 .scrollable-element::-webkit-scrollbar-thumb {
     background: #888;
 }
+.scroll{
+    /* height: 4vw; */
+    /* width: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin; */
+}
+.states_block2{
+    height: 43vw;
+    width: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.states_block2::-webkit-scrollbar {
+    width: 3px;
+}
+.states_block2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.states_block2::-webkit-scrollbar-thumb {
+    background: #888;
+}
 .allstates_list {
     padding: 10px;
     border: 1px solid #E0E0E0;
@@ -999,6 +1020,9 @@ letter-spacing: 0em;
         background: #FFF;
         /* margin-left:-30px!important;
         background-color: red!important; */
+    }
+    .scroll{
+        /* height: 10vw; */
     }
     .transform {
         position: relative;

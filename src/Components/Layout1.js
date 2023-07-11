@@ -6408,8 +6408,8 @@ function Layout1() {
                                 <div class="mob-list">
                                     {/* <a href="#" class="mob-list__item">EMS</a> */}
                                     <a href="#" class="mob-list__item">Home</a>
-                                    <a href="#" class="mob-list__item">Voter Data</a>
-                                    <a href="tel:+91 970449297" class="mob-list__item">Contact Us</a>
+                                    <a href="#download_data_inexcel" class="mob-list__item">Voter Data</a>
+                                    <a href="#footer" class="mob-list__item">Contact Us</a>
 
                                     {/* <a href="#" class="mob-list__item">Contact Us</a> */}
                                     {/* <a href="#" class="mob-list__item">Go to Cart</a> */}
@@ -6644,7 +6644,7 @@ function Layout1() {
                                     <div className=" states_block2">
 
                                         {states ? states.map((state) => (
-                                            <div className=""
+                                            <div className="scroll "
                                                 onClick={(event) => { changeState(event,selectedOption);setselectedConstituency(state.dist_name)}}
                                                 value={constituencyList}
                                                 onChange={changeState}
