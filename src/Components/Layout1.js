@@ -11947,7 +11947,310 @@ function Layout1() {
         },
         {
             "Id": "20",
-            name: "Punjab"
+            name: "Punjab",
+            states:[
+                {
+                    "dist_id": 1,
+                    "dist_name": "Dimapur I",
+                    "state": 20
+                },
+                {
+                    "dist_id": 2,
+                    "dist_name": "Dimapur II (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 3,
+                    "dist_name": "Dimapur III (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 4,
+                    "dist_name": "Ghaspani I (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 5,
+                    "dist_name": "Ghaspani II (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 6,
+                    "dist_name": "Tening (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 7,
+                    "dist_name": "Peren (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 8,
+                    "dist_name": "Western Angami (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 9,
+                    "dist_name": "Kohima Town (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 10,
+                    "dist_name": "Northern Angami I (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 11,
+                    "dist_name": "Northern Angami II (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 12,
+                    "dist_name": "Tseminyü (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 13,
+                    "dist_name": "Pughoboto (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 14,
+                    "dist_name": "Southern Angami I (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 15,
+                    "dist_name": "Southern Angami II (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 16,
+                    "dist_name": "Aizawl West 2",
+                    "state": 18
+                },
+                {
+                    "dist_id": 17,
+                    "dist_name": "Aizawl West 3",
+                    "state": 18
+                },
+                {
+                    "dist_id": 18,
+                    "dist_name": "Chozuba (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 19,
+                    "dist_name": "Phek (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 20,
+                    "dist_name": "Meluri (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 21,
+                    "dist_name": "Tuli (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 22,
+                    "dist_name": "Arkakong (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 23,
+                    "dist_name": "Impur (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 24,
+                    "dist_name": "Angetyongpang (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 25,
+                    "dist_name": "Mongoya (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 26,
+                    "dist_name": "Aonglenden (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 27,
+                    "dist_name": "Mokokchung Town (ST) ",
+                    "state": 18
+                },
+                {
+                    "dist_id": 28,
+                    "dist_name": "Koridang (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 29,
+                    "dist_name": "Jangpetkong (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 30,
+                    "dist_name": "Alongtaki (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 31,
+                    "dist_name": "Akuluto (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 32,
+                    "dist_name": "Atoizü (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 33,
+                    "dist_name": "Suruhoto (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 34,
+                    "dist_name": "Aghunato (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 35,
+                    "dist_name": "Zünheboto (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 36,
+                    "dist_name": "Satakha (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 37,
+                    "dist_name": "Tyüi (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 38,
+                    "dist_name": "Wokha (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 39,
+                    "dist_name": "Sanis (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 40,
+                    "dist_name": "Bhandari (ST)",
+                    "state": 18
+                },
+
+                {
+                    "dist_id": 41,
+                    "dist_name": "Tizit (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 42,
+                    "dist_name": "Wakching (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 43,
+                    "dist_name": "Tapi (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 44,
+                    "dist_name": "Phomching (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 45,
+                    "dist_name": "Tehok (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 46,
+                    "dist_name": "Mon Town (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 47,
+                    "dist_name": "Aboi (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 48,
+                    "dist_name": "Moka (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 49,
+                    "dist_name": "Tamlu (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 50,
+                    "dist_name": "Longleng (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 51,
+                    "dist_name": "Noksen (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 52,
+                    "dist_name": "Longkhim–Chare (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 53,
+                    "dist_name": "Tuensang Sadar I (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 54,
+                    "dist_name": "	Tuensang Sadar II (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 55,
+                    "dist_name": "Tobu (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 56,
+                    "dist_name": "Noklak (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 57,
+                    "dist_name": "Thonoknyu (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 58,
+                    "dist_name": "Shamator–Chessore (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 59,
+                    "dist_name": "Seyochung–Sitimi (ST)",
+                    "state": 18
+                },
+                {
+                    "dist_id": 60,
+                    "dist_name": "Pungro–Kiphire (ST)",
+                    "state": 18
+                }
+            ]
         },
         {
             "Id": "21",
@@ -13761,11 +14064,3524 @@ function Layout1() {
         },
         {
             "Id": "27",
-            name: "Uttar Pradesh"
+            name: "Uttar Pradesh",
+            states:[
+                {
+                    "dist_id": 1,
+                    "dist_name": "Behat",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 2,
+                    "dist_name": "Nakur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 3,
+                    "dist_name": "Saharanpur Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 4,
+                    "dist_name": "Saharanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 5,
+                    "dist_name": "Deoband",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 6,
+                    "dist_name": "Rampur Maniharan (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 7,
+                    "dist_name": "Gangoh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 8,
+                    "dist_name": "Kairana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 9,
+                    "dist_name": "Thana Bhawan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 10,
+                    "dist_name": "	Shamli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 11,
+                    "dist_name": "	Budhana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 12,
+                    "dist_name": "	Charthawal",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 13,
+                    "dist_name": "Purqazi (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 14,
+                    "dist_name": "Muzaffarnagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 15,
+                    "dist_name": "Khatauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 16,
+                    "dist_name": "Meerapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 17,
+                    "dist_name": "Najibabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 18,
+                    "dist_name": "Nagina (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 19,
+                    "dist_name": "Barhapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 20,
+                    "dist_name": "Dhampur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 21,
+                    "dist_name": "Nehtaur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 22,
+                    "dist_name": "	Bijnor",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 23,
+                    "dist_name": "Chandpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 24,
+                    "dist_name": "Noorpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 25,
+                    "dist_name": "Kanth",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 26,
+                    "dist_name": "Thakurdwara",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 27,
+                    "dist_name": "Moradabad Rural",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 28,
+                    "dist_name": "Moradabad Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 29,
+                    "dist_name": "Kundarki",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 30,
+                    "dist_name": "	Bilari",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 31,
+                    "dist_name": "Chandausi (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 32,
+                    "dist_name": "	Asmoli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 33,
+                    "dist_name": "Sambhal",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 34,
+                    "dist_name": "Suar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 35,
+                    "dist_name": "	Chamraua",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 36,
+                    "dist_name": "Bilaspur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 37,
+                    "dist_name": "Rampur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 38,
+                    "dist_name": "Milak (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 39,
+                    "dist_name": "	Dhanaura (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 40,
+                    "dist_name": "Naugawan Sadat",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 41,
+                    "dist_name": "Amroha",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 42,
+                    "dist_name": "	Hasanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 43,
+                    "dist_name": "Siwalkhas",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 44,
+                    "dist_name": "	Sardhana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 45,
+                    "dist_name": "Hastinapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 46,
+                    "dist_name": "Kithore",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 47,
+                    "dist_name": "Meerut Cantt.",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 48,
+                    "dist_name": "Meerut City",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 49,
+                    "dist_name": "	Meerut South",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 50,
+                    "dist_name": "Chhaprauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 51,
+                    "dist_name": "Baraut",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 52,
+                    "dist_name": "Baghpat",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 53,
+                    "dist_name": "	Loni",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 54,
+                    "dist_name": "	Muradnagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 55,
+                    "dist_name": "Sahibabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 56,
+                    "dist_name": "Ghaziabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 57,
+                    "dist_name": "Modi Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 58,
+                    "dist_name": "Dholana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 59,
+                    "dist_name": "	Hapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 60,
+                    "dist_name": "Garhmukteshwar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 61,
+                    "dist_name": "Noida",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 62,
+                    "dist_name": "Dadri",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 63,
+                    "dist_name": "Jewar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 64,
+                    "dist_name": "Sikandrabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 65,
+                    "dist_name": "Bulandshahr",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 66,
+                    "dist_name": "Syana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 67,
+                    "dist_name": "Anupshahr",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 68,
+                    "dist_name": "Debai",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 69,
+                    "dist_name": "Shikarpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 70,
+                    "dist_name": "Khurja (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 71,
+                    "dist_name": "Khair (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 72,
+                    "dist_name": "	Barauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 73,
+                    "dist_name": "	Atrauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 74,
+                    "dist_name": "	Chharra",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 75,
+                    "dist_name": "Koli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 76,
+                    "dist_name": "Aligarh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 77,
+                    "dist_name": "Iglas (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 78,
+                    "dist_name": "Hathras (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 79,
+                    "dist_name": "Sadabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 80,
+                    "dist_name": "Sikandra Rao",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 81,
+                    "dist_name": "Chhata",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 82,
+                    "dist_name": "Mant",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 83,
+                    "dist_name": "Goverdhan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 84,
+                    "dist_name": "Mathura",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 85,
+                    "dist_name": "Baldev (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 86,
+                    "dist_name": "Etmadpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 87,
+                    "dist_name": "Agra Cantt. (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 88,
+                    "dist_name": "Agra South",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 89,
+                    "dist_name": "Agra North",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 90,
+                    "dist_name": "Agra Rural (SC) ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 91,
+                    "dist_name": "Fatehpur Sikri",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 92,
+                    "dist_name": "Kheragarh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 93,
+                    "dist_name": "Fatehabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 94,
+                    "dist_name": "Bah",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 95,
+                    "dist_name": "Tundla (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 96,
+                    "dist_name": "Jasrana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 97,
+                    "dist_name": "Firozabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 98,
+                    "dist_name": "Shikohabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 99,
+                    "dist_name": "Sirsaganji",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 100,
+                    "dist_name": "Kasganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 101,
+                    "dist_name": "Amanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 102,
+                    "dist_name": "Patiyali",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 103,
+                    "dist_name": "Aliganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 104,
+                    "dist_name": "Ethah",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 105,
+                    "dist_name": "Marhara",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 106,
+                    "dist_name": "Jalesar (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 107,
+                    "dist_name": "Manipur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 108,
+                    "dist_name": "Bhongaon",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 109,
+                    "dist_name": "Kishni (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 110,
+                    "dist_name": "Karhal",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 111,
+                    "dist_name": "Gunnaur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 112,
+                    "dist_name": "Bisauli (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 113,
+                    "dist_name": "Sahaswan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 114,
+                    "dist_name": "Bilsi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 115,
+                    "dist_name": "Badaun",
+                    "state": 27,
+                },
+                {
+                    "dist_id":116,
+                    "dist_name": "Shekhpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 117,
+                    "dist_name": "Dataganji",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 118,
+                    "dist_name": "Baheri",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 119,
+                    "dist_name": "Meerganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 120,
+                    "dist_name": "Bhojipura",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 121,
+                    "dist_name": "Nawabganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 122,
+                    "dist_name": "Faridpur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 123,
+                    "dist_name": "Bithari Chainpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 124,
+                    "dist_name": "Bareilly",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 125,
+                    "dist_name": "Bareilly Cantt",
+                    "state": 27,
+                },
+                {
+                    "dist_id":126,
+                    "dist_name": "Anola",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 127,
+                    "dist_name": "Pilibhit",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 128,
+                    "dist_name": "Barkhera",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 129,
+                    "dist_name": "Puranpur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 130,
+                    "dist_name": "Bisalpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 131,
+                    "dist_name": "Katra",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 132,
+                    "dist_name": "Jalalabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 133,
+                    "dist_name": "Tilhar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 134,
+                    "dist_name": "Powayan (SC)",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 135,
+                    "dist_name": "Shahjahanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id":136,
+                    "dist_name": "Dadraul",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 137,
+                    "dist_name": "Palia",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 138,
+                    "dist_name": "Nighasan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 139,
+                    "dist_name": "Gola Gokarnnath",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 140,
+                    "dist_name": "Sri Nagar (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 141,
+                    "dist_name": "Dhaurahra",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 142,
+                    "dist_name": "Lakhimpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 143,
+                    "dist_name": "Kasta (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 144,
+                    "dist_name": "Mohammadi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 145,
+                    "dist_name": "Maholi",
+                    "state": 27,
+                },
+                {
+                    "dist_id":146,
+                    "dist_name": "Sitapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 147,
+                    "dist_name": "Hargaon (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 148,
+                    "dist_name": "Laharpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 149,
+                    "dist_name": "Biswan ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 150,
+                    "dist_name": "Sevata",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 151,
+                    "dist_name": "Mahmoodabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 152,
+                    "dist_name": "Sidhauli (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 153,
+                    "dist_name": "Misrikh (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 154,
+                    "dist_name": "Sawayazpur",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 155,
+                    "dist_name": "Shahabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id":156,
+                    "dist_name": "Hardoi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 157,
+                    "dist_name": "Gopamau (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 158,
+                    "dist_name": "Sandi (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 159,
+                    "dist_name": "Bilgram-Mallanwan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 160,
+                    "dist_name": "Balamau (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 161,
+                    "dist_name": "Sandila",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 162,
+                    "dist_name": "Bangarmau",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 163,
+                    "dist_name": "Safipur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 164,
+                    "dist_name": "Mohan (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 165,
+                    "dist_name": "Unnao",
+                    "state": 27,
+                },
+                {
+                    "dist_id":166,
+                    "dist_name": "Bhagwantnagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 167,
+                    "dist_name": "Purwa",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 168,
+                    "dist_name": "Malihabad (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 169,
+                    "dist_name": "Bakshi Kaa Talab",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 170,
+                    "dist_name": "Sarojini Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 171,
+                    "dist_name": "Lucknow West",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 172,
+                    "dist_name": "Lucknow North",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 173,
+                    "dist_name": "Lucknow East",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 174,
+                    "dist_name": "Lucknow Central",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 175,
+                    "dist_name": "Lucknow Cantt",
+                    "state": 27,
+                },
+                {
+                    "dist_id":176,
+                    "dist_name": "Mohanlalganj (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 177,
+                    "dist_name": "Bachhrawan (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 178,
+                    "dist_name": "Tiloi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 179,
+                    "dist_name": "Harchandpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 180,
+                    "dist_name": "Rae Bareli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 181,
+                    "dist_name": "Salon (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 182,
+                    "dist_name": "Sareni",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 183,
+                    "dist_name": "Unchahar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 184,
+                    "dist_name": "Jagdishpur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 185,
+                    "dist_name": "Gauriganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id":186,
+                    "dist_name": "Amethi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 187,
+                    "dist_name": "Isauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 188,
+                    "dist_name": "Sultanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 189,
+                    "dist_name": "Sultanpur Sadar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 190,
+                    "dist_name": "Lambhua",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 191,
+                    "dist_name": "Kadipur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 192,
+                    "dist_name": "Kaimganj (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 193,
+                    "dist_name": "Amritpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 194,
+                    "dist_name": "Farrukhabad",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 195,
+                    "dist_name": "Bhojpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id":196,
+                    "dist_name": "Chhibramau",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 197,
+                    "dist_name": "Tirwa",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 198,
+                    "dist_name": "	Kannauj (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 199,
+                    "dist_name": "Jaswantnagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 200,
+                    "dist_name": "Etawah",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 201,
+                    "dist_name": "Bharthana (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 202,
+                    "dist_name": "Bidhuna",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 203,
+                    "dist_name": "Dibiyapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 204,
+                    "dist_name": "Auraiya (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 205,
+                    "dist_name": "Rasulabad (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":206,
+                    "dist_name": "Akbarpur-Raniya",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 207,
+                    "dist_name": "Sikandra",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 208,
+                    "dist_name": "Bhognipur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 209,
+                    "dist_name": "	Bilhaur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 210,
+                    "dist_name": "Bithoor",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 211,
+                    "dist_name": "Kalyanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 212,
+                    "dist_name": "Govindnagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 213,
+                    "dist_name": "Sishamau",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 214,
+                    "dist_name": "Arya Nagar",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 215,
+                    "dist_name": "Kidwai Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id":216,
+                    "dist_name": "Kanpur Cantt",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 217,
+                    "dist_name": "Maharajpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id":218,
+                    "dist_name": "Ghatampur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 219,
+                    "dist_name": "Madhaugarh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 220,
+                    "dist_name": "Kalpi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 221,
+                    "dist_name": "Orai (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 222,
+                    "dist_name": "Babina",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 223,
+                    "dist_name": "Jhansi Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 224,
+                    "dist_name": "Mauranipur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 225,
+                    "dist_name": "Garautha",
+                    "state": 27,
+                },
+                {
+                    "dist_id":226,
+                    "dist_name": "Lalitpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 227,
+                    "dist_name": "Mehroni (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 228,
+                    "dist_name": "Hamirpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 229,
+                    "dist_name": "Rath (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 230,
+                    "dist_name": "Mahoba",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 231,
+                    "dist_name": "Charkhari",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 232,
+                    "dist_name": "Baberu",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 233,
+                    "dist_name": "Naraini (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 234,
+                    "dist_name": "Naraini (SC)",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 235,
+                    "dist_name": "Banda",
+                    "state": 27,
+                },
+                {
+                    "dist_id":236,
+                    "dist_name": "Chitrakoot",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 237,
+                    "dist_name": "Manikpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 238,
+                    "dist_name": "Jahanabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 239,
+                    "dist_name": "Bindki",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 240,
+                    "dist_name": "Fatehpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 241,
+                    "dist_name": "Ayah Shah",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 242,
+                    "dist_name": "Hasainganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 243,
+                    "dist_name": "Khaga (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 244,
+                    "dist_name": "Rampur Khas",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 245,
+                    "dist_name": "Babaganj (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":246,
+                    "dist_name": "Kunda",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 247,
+                    "dist_name": "Bishwavnathganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 248,
+                    "dist_name": "Pratapgarh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 249,
+                    "dist_name": " Patti",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 250,
+                    "dist_name": "Raniganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 251,
+                    "dist_name": "Sirathu",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 252,
+                    "dist_name": "Manjhanour (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 253,
+                    "dist_name": "Chail",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 254,
+                    "dist_name": "Phaphamau ",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 255,
+                    "dist_name": "Soraon (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":256,
+                    "dist_name": "Phulpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 257,
+                    "dist_name": "Pratappur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 258,
+                    "dist_name": "Handia",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 259,
+                    "dist_name": "Meja",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 260,
+                    "dist_name": "Karachhana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 261,
+                    "dist_name": "Allahabad West",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 262,
+                    "dist_name": "Allahabad North",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 263,
+                    "dist_name": "Allahabad South",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 264,
+                    "dist_name": "Bara (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 265,
+                    "dist_name": "Koraon",
+                    "state": 27,
+                },
+                {
+                    "dist_id":266,
+                    "dist_name": "Kursi",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 267,
+                    "dist_name": "Ram Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 268,
+                    "dist_name": "Barabanki",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 269,
+                    "dist_name": "Zaidour (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 270,
+                    "dist_name": "Dariyabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 271,
+                    "dist_name": "Rudauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 272,
+                    "dist_name": "Haidergarh (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 273,
+                    "dist_name": "Milkipur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 274,
+                    "dist_name": "Bikapur",
+                    "state": 27,
+                },
+                
+                {
+                    "dist_id": 275,
+                    "dist_name": "Ayodhya",
+                    "state": 27,
+                },
+                {
+                    "dist_id":276,
+                    "dist_name": "Goshainganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 277,
+                    "dist_name": "Katehari",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 278,
+                    "dist_name": "Tanda",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 279,
+                    "dist_name": "Alapur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 280,
+                    "dist_name": "Jalalpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 281,
+                    "dist_name": "Akbarpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 282,
+                    "dist_name": "Balha (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 283,
+                    "dist_name": " Nanpara",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 284,
+                    "dist_name": "Matera",
+                    "state": 27,
+                }, 
+                {
+                    "dist_id": 285,
+                    "dist_name": "Bahraich",
+                    "state": 27,
+                },
+                {
+                    "dist_id":286,
+                    "dist_name": "Payagpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 287,
+                    "dist_name": "Bhinga",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 288,
+                    "dist_name": "Kaiserganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 289,
+                    "dist_name": "Bhinga",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 290,
+                    "dist_name": "Shrawasti",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 291,
+                    "dist_name": "Tulsipur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 292,
+                    "dist_name": "Gainsari",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 293,
+                    "dist_name": " Utraula",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 294,
+                    "dist_name": "Balrampur (SC)",
+                    "state": 27,
+                }, 
+                {
+                    "dist_id": 295,
+                    "dist_name": "Mehnaun",
+                    "state": 27,
+                },
+                {
+                    "dist_id":296,
+                    "dist_name": "Gonda",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 297,
+                    "dist_name": "Katra Bazar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 298,
+                    "dist_name": "Colonelganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 299,
+                    "dist_name": "Tarabganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 300,
+                    "dist_name": "Mankapur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 301,
+                    "dist_name": "Gaura",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 302,
+                    "dist_name": "Shohratgarh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 303,
+                    "dist_name": " Kapilvastu (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 304,
+                    "dist_name": "Bansi",
+                    "state": 27,
+                }, 
+                {
+                    "dist_id": 305,
+                    "dist_name": "Itwa",
+                    "state": 27,
+                },
+                {
+                    "dist_id":306,
+                    "dist_name": "Domariyaganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 307,
+                    "dist_name": "Harraiya",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 308,
+                    "dist_name": "Kaptanganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 309,
+                    "dist_name": "Rudhauli",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 310,
+                    "dist_name": "Basti Sadar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 311,
+                    "dist_name": "Mahadewa (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 312,
+                    "dist_name": "Menhdawal ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 313,
+                    "dist_name": " Khalilabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 314,
+                    "dist_name": "Dhanghata (SC)",
+                    "state": 27,
+                }, 
+                {
+                    "dist_id": 315,
+                    "dist_name": "Pharenda",
+                    "state": 27,
+                },
+                {
+                    "dist_id":316,
+                    "dist_name": "Nautanwa",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 317,
+                    "dist_name": "Siswa",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 318,
+                    "dist_name": "Maharajganj (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 319,
+                    "dist_name": "	Paniyara",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 320,
+                    "dist_name": "Caimpiyarganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 321,
+                    "dist_name": "	Pipraich",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 322,
+                    "dist_name": "Gorakhpur Urban ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 323,
+                    "dist_name": " Gorakhpur Rural",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 324,
+                    "dist_name": "Sahajanwa",
+                    "state": 27,
+                }, 
+                {
+                    "dist_id":325,
+                    "dist_name": "Khajani (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":326,
+                    "dist_name": "Chauri-Chaura",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 327,
+                    "dist_name": "Bansgaon (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 328,
+                    "dist_name": "Chillupar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 329,
+                    "dist_name": "	Khadda",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 330,
+                    "dist_name": "Padrauna",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 331,
+                    "dist_name": "	Tamkuhi Raj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 332,
+                    "dist_name": "Fazilnagar ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 333,
+                    "dist_name": " 	Kushinagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 334,
+                    "dist_name": "	Hata",
+                    "state": 27,
+                },
+                {
+                    "dist_id":335,
+                    "dist_name": "Ramkola (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":336,
+                    "dist_name": "Rudrapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 337,
+                    "dist_name": "Deoria",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 338,
+                    "dist_name": "Pathardeva",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 339,
+                    "dist_name": "Rampur Karkhana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 340,
+                    "dist_name": "Bhatpar Rani",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 341,
+                    "dist_name": "	Salempur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 342,
+                    "dist_name": "Barhaj ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 343,
+                    "dist_name": " Atrauliya",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 344,
+                    "dist_name": "Gopalpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id":345,
+                    "dist_name": "Sagri",
+                    "state": 27,
+                },
+                {
+                    "dist_id":346,
+                    "dist_name": "Mubarakpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 347,
+                    "dist_name": "Azamgarh",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 348,
+                    "dist_name": "Nizamabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 349,
+                    "dist_name": "Phoolpur Pawai",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 350,
+                    "dist_name": "Didarganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 351,
+                    "dist_name": "Lalganj (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 352,
+                    "dist_name": "Mehnagar (SC) ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 353,
+                    "dist_name": " Madhuban",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 354,
+                    "dist_name": "Ghosi",
+                    "state": 27,
+                },
+                {
+                    "dist_id":355,
+                    "dist_name": "Muhammadabad-Gohna (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":356,
+                    "dist_name": "Mau",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 357,
+                    "dist_name": "Belthara Road (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 358,
+                    "dist_name": "Rasara",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 359,
+                    "dist_name": "	Sikanderpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 360,
+                    "dist_name": "Phephana",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 361,
+                    "dist_name": "Ballia Nagar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 362,
+                    "dist_name": "Bansdih ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 363,
+                    "dist_name": " 	Bairia",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 364,
+                    "dist_name": "	Badlapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id":365,
+                    "dist_name": "Shahganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id":366,
+                    "dist_name": "Jaunpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 367,
+                    "dist_name": "Malhani",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 368,
+                    "dist_name": "Mungra Badshahpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 369,
+                    "dist_name": "Machhlishahr (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 370,
+                    "dist_name": "Mariyahu",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 371,
+                    "dist_name": "Zafrabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 372,
+                    "dist_name": "Kerakat (SC) ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 373,
+                    "dist_name": " Jakhanian (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 374,
+                    "dist_name": "Saidpur (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":375,
+                    "dist_name": "Ghazipur Sadar",
+                    "state": 27,
+                },
+                {
+                    "dist_id":376,
+                    "dist_name": "Jangipur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 377,
+                    "dist_name": "Zahoorabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 378,
+                    "dist_name": "Mohammadabad",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 379,
+                    "dist_name": "Zamania",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 380,
+                    "dist_name": "Mughalsarai",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 381,
+                    "dist_name": "Sakaldiha",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 382,
+                    "dist_name": "Saiyadraja",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 383,
+                    "dist_name": "Chakia (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 384,
+                    "dist_name": "Pindra",
+                    "state": 27,
+                },
+                {
+                    "dist_id":385,
+                    "dist_name": "Ajagara (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":386,
+                    "dist_name": "Shivpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 387,
+                    "dist_name": "Rohaniya",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 388,
+                    "dist_name": "Varanasi North",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 389,
+                    "dist_name": "Varanasi South",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 390,
+                    "dist_name": "Varanasi Cantonment",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 391,
+                    "dist_name": "Sevapuri",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 392,
+                    "dist_name": "Bhadohi ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 393,
+                    "dist_name": " Gyanpur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 394,
+                    "dist_name": "Aurai (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":395,
+                    "dist_name": "Chhanbey (SC)",
+                    "state": 27,
+                },
+                {
+                    "dist_id":396,
+                    "dist_name": "Mirzapur",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 397,
+                    "dist_name": "	Majhawan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 398,
+                    "dist_name": "Chunar",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 399,
+                    "dist_name": "Marihan",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 400,
+                    "dist_name": "Ghorawal",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 401,
+                    "dist_name": "	Robertsganj",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 402,
+                    "dist_name": "Obra (ST) ",
+                    "state": 27,
+                },
+                {
+                    "dist_id": 403,
+                    "dist_name": " 	Duddhi (ST)",
+                    "state": 27,
+                },
+        
+            ]
         },
         {
             "Id": "28",
-            name: "West Bengal"
+            name: "West Bengal",
+            states:[
+                {
+                    "dist_id": 1,
+                    "dist_name": "Mekliganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 2,
+                    "dist_name": "Mathabhanga",
+                    "state": 28
+                },
+                {
+                    "dist_id": 3,
+                    "dist_name": "Cooch Behar Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 4,
+                    "dist_name": "Cooch Behar Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 5,
+                    "dist_name": "Sitalkuchi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 6,
+                    "dist_name": "Sitai",
+                    "state": 28
+                },
+                {
+                    "dist_id": 7,
+                    "dist_name": "Dinhata",
+                    "state": 28
+                },
+                {
+                    "dist_id": 8,
+                    "dist_name": "Natabari",
+                    "state": 28
+                },
+                {
+                    "dist_id": 9,
+                    "dist_name": "Tufanganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 10,
+                    "dist_name": "Kumargram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 11,
+                    "dist_name": "Kalchini",
+                    "state": 28
+                },
+                {
+                    "dist_id": 12,
+                    "dist_name": "Alipurduars",
+                    "state": 28
+                },
+                {
+                    "dist_id": 13,
+                    "dist_name": "Falakata",
+                    "state": 28
+                },
+                {
+                    "dist_id": 14,
+                    "dist_name": "Madarihat",
+                    "state": 28
+                },
+                {
+                    "dist_id": 15,
+                    "dist_name": "Dhupguri",
+                    "state": 28
+                },
+                {
+                    "dist_id": 16,
+                    "dist_name": "Maynaguri",
+                    "state": 28
+                },
+                {
+                    "dist_id": 17,
+                    "dist_name": "Jalpaiguri",
+                    "state": 28
+                },
+                {
+                    "dist_id": 18,
+                    "dist_name": "Rajganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 19,
+                    "dist_name": "Dabgram-Phulbari",
+                    "state": 28
+                },
+                {
+                    "dist_id": 20,
+                    "dist_name": "Mal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 21,
+                    "dist_name": "Nagrakata",
+                    "state": 28
+                },
+                {
+                    "dist_id": 22,
+                    "dist_name": "Kalimpong",
+                    "state": 28
+                },
+                {
+                    "dist_id": 23,
+                    "dist_name": "	Darjeeling",
+                    "state": 28
+                },
+                {
+                    "dist_id": 24,
+                    "dist_name": "Kurseong",
+                    "state": 28
+                },
+                {
+                    "dist_id": 25,
+                    "dist_name": "Matigara-Naxalbari",
+                    "state": 28
+                },
+                {
+                    "dist_id": 26,
+                    "dist_name": "Siliguri",
+                    "state": 28
+                },
+                {
+                    "dist_id": 27,
+                    "dist_name": "Phansidewa",
+                    "state": 28
+                },
+                {
+                    "dist_id": 28,
+                    "dist_name": "Chopra",
+                    "state": 28
+                },
+                {
+                    "dist_id": 29,
+                    "dist_name": "Islampur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 30,
+                    "dist_name": "Goalpokhar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 31,
+                    "dist_name": "	Chakulia",
+                    "state": 28
+                },
+                {
+                    "dist_id": 32,
+                    "dist_name": "	Karandighi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 33,
+                    "dist_name": "Hemtabad",
+                    "state": 28
+                },
+                {
+                    "dist_id": 34,
+                    "dist_name": "Kaliaganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 35,
+                    "dist_name": "	Raiganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 36,
+                    "dist_name": "	Itahar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 37,
+                    "dist_name": "Kushmandi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 38,
+                    "dist_name": "Kumarganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 39,
+                    "dist_name": "Balurghat",
+                    "state": 28
+                },
+                {
+                    "dist_id": 40,
+                    "dist_name": "Tapan",
+                    "state": 28
+                },
+                {
+                    "dist_id": 41,
+                    "dist_name": "Gangarampur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 42,
+                    "dist_name": "	Harirampur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 43,
+                    "dist_name": "	Habibpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 44,
+                    "dist_name": "	Gazole",
+                    "state": 28
+                },
+                {
+                    "dist_id": 45,
+                    "dist_name": "Chanchal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 46,
+                    "dist_name": "Harishchandrapur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 47,
+                    "dist_name": "Malatipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 48,
+                    "dist_name": "	Ratua",
+                    "state": 28
+                },
+                {
+                    "dist_id": 49,
+                    "dist_name": "	Manikchak",
+                    "state": 28
+                },
+                {
+                    "dist_id": 50,
+                    "dist_name": "Maldaha",
+                    "state": 28
+                },
+                {
+                    "dist_id": 51,
+                    "dist_name": "	English Bazar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 52,
+                    "dist_name": "Mothabari",
+                    "state": 28
+                },
+                {
+                    "dist_id": 53,
+                    "dist_name": "	Sujapur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 54,
+                    "dist_name": "	Baisnabnagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 55,
+                    "dist_name": "	Farakka",
+                    "state": 28
+                },
+                {
+                    "dist_id": 56,
+                    "dist_name": "	Samserganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 57,
+                    "dist_name": "Suti",
+                    "state": 28
+                },
+                {
+                    "dist_id": 58,
+                    "dist_name": "	Jangipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 59,
+                    "dist_name": "		Raghunathganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 60,
+                    "dist_name": "	Sagardighi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 61,
+                    "dist_name": "	Lalgola",
+                    "state": 28
+                },
+                {
+                    "dist_id": 62,
+                    "dist_name": "	Bhagabangola",
+                    "state": 28
+                },
+                {
+                    "dist_id": 63,
+                    "dist_name": "Raninagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 64,
+                    "dist_name": "Murshidabad",
+                    "state": 28
+                },
+                {
+                    "dist_id": 65,
+                    "dist_name": "	Nabagram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 66,
+                    "dist_name": "	Khargram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 67,
+                    "dist_name": "Domkal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 68,
+                    "dist_name": "	Jalangi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 69,
+                    "dist_name": "	Burwan",
+                    "state": 27
+                },
+                {
+                    "dist_id": 70,
+                    "dist_name": "	Kandi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 71,
+                    "dist_name": "Bharatpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 72,
+                    "dist_name": "Rejinagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 73,
+                    "dist_name": "Beldanga",
+                    "state": 28
+                },
+                {
+                    "dist_id": 74,
+                    "dist_name": "	Baharampur",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 75,
+                    "dist_name": "	Hariharpara",
+                    "state": 28
+                },
+                {
+                    "dist_id": 76,
+                    "dist_name": "	Naoda",
+                    "state": 28
+                },
+                {
+                    "dist_id": 77,
+                    "dist_name": "Karimpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 78,
+                    "dist_name": "Tehatta",
+                    "state": 28
+                },
+                {
+                    "dist_id": 79,
+                    "dist_name": "Palashipara",
+                    "state": 28
+                },
+                {
+                    "dist_id": 80,
+                    "dist_name": "Kaliganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 81,
+                    "dist_name": "Nakashipara",
+                    "state": 28
+                },
+                {
+                    "dist_id": 82,
+                    "dist_name": "Chapra",
+                    "state": 28
+                },
+                {
+                    "dist_id": 83,
+                    "dist_name": "	Krishnanagar Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 84,
+                    "dist_name": "	Nabadwip",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 85,
+                    "dist_name": " Krishnanagar Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 86,
+                    "dist_name": "	Santipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 87,
+                    "dist_name": "Ranaghat Uttar Paschim",
+                    "state": 28
+                },
+                {
+                    "dist_id": 88,
+                    "dist_name": "Krishnaganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 89,
+                    "dist_name": "Ranaghat Uttar Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 90,
+                    "dist_name": "Ranaghat Dakshin ",
+                    "state": 28
+                },
+                {
+                    "dist_id": 91,
+                    "dist_name": "	Chakdaha",
+                    "state": 28
+                },
+                {
+                    "dist_id": 92,
+                    "dist_name": "Kalyani",
+                    "state": 28
+                },
+                {
+                    "dist_id": 93,
+                    "dist_name": "Haringhata",
+                    "state": 28
+                },
+                {
+                    "dist_id": 94,
+                    "dist_name": "Bagdah",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 95,
+                    "dist_name": "	Bangaon Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 96,
+                    "dist_name": "Bangaon Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 97,
+                    "dist_name": "Gaighata",
+                    "state": 28
+                },
+                {
+                    "dist_id": 98,
+                    "dist_name": "Swarupnagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 99,
+                    "dist_name": "Baduria",
+                    "state": 28
+                },
+                {
+                    "dist_id": 100,
+                    "dist_name": "	Habra",
+                    "state": 28
+                },
+                {
+                    "dist_id": 101,
+                    "dist_name": "	Ashokenagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 102,
+                    "dist_name": "Amdanga",
+                    "state": 28
+                },
+                {
+                    "dist_id": 103,
+                    "dist_name": "	Bijpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 104,
+                    "dist_name": "	Naihati",
+                    "state": 28
+                },
+                {
+                    "dist_id": 105,
+                    "dist_name": "	Bhatpara",
+                    "state": 28
+                },
+                {
+                    "dist_id": 106,
+                    "dist_name": "Jagatdal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 107,
+                    "dist_name": "	Noapara",
+                    "state": 28
+                },
+                {
+                    "dist_id": 108,
+                    "dist_name": "Barrackpore",
+                    "state": 28
+                },
+                {
+                    "dist_id": 109,
+                    "dist_name": "	Khardaha",
+                    "state": 28
+                },
+                {
+                    "dist_id": 110,
+                    "dist_name": "Dum Dum Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 111,
+                    "dist_name": "	Panihati",
+                    "state": 28
+                },
+                {
+                    "dist_id": 112,
+                    "dist_name": "	Kamarhati",
+                    "state": 28
+                },
+                {
+                    "dist_id": 113,
+                    "dist_name": "	Baranagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 114,
+                    "dist_name": "	Dum Dum",
+                    "state": 28
+                },
+                {
+                    "dist_id": 115,
+                    "dist_name": "Rajarhat New Town",
+                    "state": 28
+                },
+                {
+                    "dist_id":116,
+                    "dist_name": "Bidhannagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 117,
+                    "dist_name": "Rajarhat Gopalpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 118,
+                    "dist_name": "Madhyamgram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 119,
+                    "dist_name": "	Barasat",
+                    "state": 28
+                },
+                {
+                    "dist_id": 120,
+                    "dist_name": "	Deganga",
+                    "state": 28
+                },
+                {
+                    "dist_id": 121,
+                    "dist_name": "	Haroa",
+                    "state": 28
+                },
+                {
+                    "dist_id": 122,
+                    "dist_name": "Minakhan",
+                    "state": 28
+                },
+                {
+                    "dist_id": 123,
+                    "dist_name": "Sandeshkhali",
+                    "state": 28
+                },
+                {
+                    "dist_id": 124,
+                    "dist_name": "	Basirhat Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 125,
+                    "dist_name": "Basirhat Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id":126,
+                    "dist_name": "Hingalganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 127,
+                    "dist_name": "Gosaba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 128,
+                    "dist_name": "	Basanti",
+                    "state": 28
+                },
+                {
+                    "dist_id": 129,
+                    "dist_name": "Kultali",
+                    "state": 28
+                },
+                {
+                    "dist_id": 130,
+                    "dist_name": "Patharpratima",
+                    "state": 28
+                },
+                {
+                    "dist_id": 131,
+                    "dist_name": "Kakdwip",
+                    "state": 28
+                },
+                {
+                    "dist_id": 132,
+                    "dist_name": "Sagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 133,
+                    "dist_name": "	Kulpi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 134,
+                    "dist_name": "	Raidighi",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 135,
+                    "dist_name": "Mandirbazar",
+                    "state": 28
+                },
+                {
+                    "dist_id":136,
+                    "dist_name": "Jaynagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 137,
+                    "dist_name": "Baruipur Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 138,
+                    "dist_name": "Canning Paschim",
+                    "state": 28
+                },
+                {
+                    "dist_id": 139,
+                    "dist_name": "	Canning Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 140,
+                    "dist_name": "Baruipur Paschim",
+                    "state": 28
+                },
+                {
+                    "dist_id": 141,
+                    "dist_name": "Magrahat Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 142,
+                    "dist_name": "Magrahat Paschim",
+                    "state": 28
+                },
+                {
+                    "dist_id": 143,
+                    "dist_name": "Diamond Harbour",
+                    "state": 28
+                },
+                {
+                    "dist_id": 144,
+                    "dist_name": "	Falta",
+                    "state": 28
+                },
+                {
+                    "dist_id": 145,
+                    "dist_name": "Satgachia",
+                    "state": 28
+                },
+                {
+                    "dist_id":146,
+                    "dist_name": "	Bishnupur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 147,
+                    "dist_name": "Sonarpur Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 148,
+                    "dist_name": "	Bhangar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 149,
+                    "dist_name": "Kasba ",
+                    "state": 28
+                },
+                {
+                    "dist_id": 150,
+                    "dist_name": "Jadavpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 151,
+                    "dist_name": "Sonarpur Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 152,
+                    "dist_name": "Tollygunge",
+                    "state": 28
+                },
+                {
+                    "dist_id": 153,
+                    "dist_name": "Behala Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 154,
+                    "dist_name": "Behala Paschim",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 155,
+                    "dist_name": "Maheshtala",
+                    "state": 28
+                },
+                {
+                    "dist_id":156,
+                    "dist_name": "Budge Budge",
+                    "state": 28
+                },
+                {
+                    "dist_id": 157,
+                    "dist_name": "	Metiaburuz",
+                    "state": 28
+                },
+                {
+                    "dist_id": 158,
+                    "dist_name": "Kolkata Port",
+                    "state": 28
+                },
+                {
+                    "dist_id": 159,
+                    "dist_name": "Bhabanipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 160,
+                    "dist_name": "	Rashbehari",
+                    "state": 28
+                },
+                {
+                    "dist_id": 161,
+                    "dist_name": "	Ballygunge",
+                    "state": 28
+                },
+                {
+                    "dist_id": 162,
+                    "dist_name": "	Chowrangee",
+                    "state": 28
+                },
+                {
+                    "dist_id": 163,
+                    "dist_name": "Entally",
+                    "state": 28
+                },
+                {
+                    "dist_id": 164,
+                    "dist_name": "	Beleghata",
+                    "state": 28
+                },
+                {
+                    "dist_id": 165,
+                    "dist_name": "Jorasanko",
+                    "state": 28
+                },
+                {
+                    "dist_id":166,
+                    "dist_name": "Shyampukur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 167,
+                    "dist_name": "	Maniktala",
+                    "state": 28
+                },
+                {
+                    "dist_id": 168,
+                    "dist_name": "Kashipur-Belgachhia",
+                    "state": 28
+                },
+                {
+                    "dist_id": 169,
+                    "dist_name": "Bally",
+                    "state": 28
+                },
+                {
+                    "dist_id": 170,
+                    "dist_name": "Howrah Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 171,
+                    "dist_name": "	Howrah Madhya",
+                    "state": 28
+                },
+                {
+                    "dist_id": 172,
+                    "dist_name": "Shibpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 173,
+                    "dist_name": "Howrah Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 174,
+                    "dist_name": "Sankrail",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 175,
+                    "dist_name": "	Panchla",
+                    "state": 28
+                },
+                {
+                    "dist_id":176,
+                    "dist_name": "Uluberia Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 177,
+                    "dist_name": "Uluberia Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 178,
+                    "dist_name": "Uluberia Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 179,
+                    "dist_name": "Shyampur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 180,
+                    "dist_name": "	Bagnan",
+                    "state": 28
+                },
+                {
+                    "dist_id": 181,
+                    "dist_name": "	Amta",
+                    "state": 28
+                },
+                {
+                    "dist_id": 182,
+                    "dist_name": "Udaynarayanpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 183,
+                    "dist_name": "Jagatballavpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 184,
+                    "dist_name": "Domjur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 185,
+                    "dist_name": "	Uttarpara",
+                    "state": 28
+                },
+                {
+                    "dist_id":186,
+                    "dist_name": "	Sreerampur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 187,
+                    "dist_name": "	Champdani",
+                    "state": 28
+                },
+                {
+                    "dist_id": 188,
+                    "dist_name": "Singur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 189,
+                    "dist_name": "Chandannagar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 190,
+                    "dist_name": "Chunchura",
+                    "state": 28
+                },
+                {
+                    "dist_id": 191,
+                    "dist_name": "Balagarh",
+                    "state": 28
+                },
+                {
+                    "dist_id": 192,
+                    "dist_name": "Pandua",
+                    "state": 28
+                },
+                {
+                    "dist_id": 193,
+                    "dist_name": "	Saptagram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 194,
+                    "dist_name": "Chanditala",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 195,
+                    "dist_name": "Jangipara",
+                    "state": 28
+                },
+                {
+                    "dist_id":196,
+                    "dist_name": "	Haripal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 197,
+                    "dist_name": "Dhanekhali",
+                    "state": 28
+                },
+                {
+                    "dist_id": 198,
+                    "dist_name": "		Tarakeswar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 199,
+                    "dist_name": "Pursurah",
+                    "state": 28
+                },
+                {
+                    "dist_id": 200,
+                    "dist_name": "Arambagh",
+                    "state": 28
+                },
+                {
+                    "dist_id": 201,
+                    "dist_name": "Goghat",
+                    "state": 28
+                },
+                {
+                    "dist_id": 202,
+                    "dist_name": "Khanakul",
+                    "state": 28
+                },
+                {
+                    "dist_id": 203,
+                    "dist_name": "Tamluk",
+                    "state": 28
+                },
+                {
+                    "dist_id": 204,
+                    "dist_name": "Panskura Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 205,
+                    "dist_name": "Panskura Paschim",
+                    "state": 28
+                },
+                {
+                    "dist_id":206,
+                    "dist_name": "Moyna",
+                    "state": 28
+                },
+                {
+                    "dist_id": 207,
+                    "dist_name": "Nandakumar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 208,
+                    "dist_name": "Mahisadal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 209,
+                    "dist_name": "	Haldia",
+                    "state": 28
+                },
+                {
+                    "dist_id": 210,
+                    "dist_name": "Nandigram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 211,
+                    "dist_name": "	Chandipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 212,
+                    "dist_name": "Patashpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 213,
+                    "dist_name": "Kanthi Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 214,
+                    "dist_name": "	Bhagabanpur",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 215,
+                    "dist_name": "Khejuri",
+                    "state": 28
+                },
+                {
+                    "dist_id":216,
+                    "dist_name": "Kanthi Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 217,
+                    "dist_name": "Ramnagar",
+                    "state": 28
+                },
+                {
+                    "dist_id":218,
+                    "dist_name": "Egra",
+                    "state": 28
+                },
+                {
+                    "dist_id": 219,
+                    "dist_name": "Dantan",
+                    "state": 28
+                },
+                {
+                    "dist_id": 220,
+                    "dist_name": "	Nayagram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 221,
+                    "dist_name": "	Gopiballavpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 222,
+                    "dist_name": "Jhargram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 223,
+                    "dist_name": "	Keshiary",
+                    "state": 28
+                },
+                {
+                    "dist_id": 224,
+                    "dist_name": "Kharagpur Sadar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 225,
+                    "dist_name": "Narayangarh",
+                    "state": 28
+                },
+                {
+                    "dist_id":226,
+                    "dist_name": "Sabang",
+                    "state": 28
+                },
+                {
+                    "dist_id": 227,
+                    "dist_name": "Pingla",
+                    "state": 28
+                },
+                {
+                    "dist_id": 228,
+                    "dist_name": "	Kharagpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 229,
+                    "dist_name": "Debra",
+                    "state": 28
+                },
+                {
+                    "dist_id": 230,
+                    "dist_name": "Daspur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 231,
+                    "dist_name": "	Ghatal",
+                    "state": 28
+                },
+                {
+                    "dist_id": 232,
+                    "dist_name": "Chandrakona",
+                    "state": 28
+                },
+                {
+                    "dist_id": 233,
+                    "dist_name": "Garbeta",
+                    "state": 28
+                },
+                {
+                    "dist_id": 234,
+                    "dist_name": "Salboni",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 235,
+                    "dist_name": "	Keshpur",
+                    "state": 28
+                },
+                {
+                    "dist_id":236,
+                    "dist_name": "Medinipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 237,
+                    "dist_name": "Binpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 238,
+                    "dist_name": "Bandwan",
+                    "state": 28
+                },
+                {
+                    "dist_id": 239,
+                    "dist_name": "Balarampur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 240,
+                    "dist_name": "Baghmundi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 241,
+                    "dist_name": "	Joypur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 242,
+                    "dist_name": "Purulia",
+                    "state": 28
+                },
+                {
+                    "dist_id": 243,
+                    "dist_name": "Manbazar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 244,
+                    "dist_name": "Kashipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 245,
+                    "dist_name": "Para",
+                    "state": 28
+                },
+                {
+                    "dist_id":246,
+                    "dist_name": "Raghunathpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 247,
+                    "dist_name": "Saltora",
+                    "state": 28
+                },
+                {
+                    "dist_id": 248,
+                    "dist_name": "Chhatna",
+                    "state": 28
+                },
+                {
+                    "dist_id": 249,
+                    "dist_name": " Ranibandh",
+                    "state": 28
+                },
+                {
+                    "dist_id": 250,
+                    "dist_name": "	Raipur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 251,
+                    "dist_name": "Taldangra",
+                    "state": 28
+                },
+                {
+                    "dist_id": 252,
+                    "dist_name": "	Bankura",
+                    "state": 28
+                },
+                {
+                    "dist_id": 253,
+                    "dist_name": "Barjora",
+                    "state": 28
+                },
+                {
+                    "dist_id": 254,
+                    "dist_name": "	Onda ",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 255,
+                    "dist_name": "	Bishnupur",
+                    "state": 28
+                },
+                {
+                    "dist_id":256,
+                    "dist_name": "Katulpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 257,
+                    "dist_name": "	Indas",
+                    "state": 28
+                },
+                {
+                    "dist_id": 258,
+                    "dist_name": "	Sonamukhi",
+                    "state": 28
+                },
+                {
+                    "dist_id": 259,
+                    "dist_name": "Khandaghosh",
+                    "state": 28
+                },
+                {
+                    "dist_id": 260,
+                    "dist_name": "Bardhaman Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 261,
+                    "dist_name": "	Raina",
+                    "state": 28
+                },
+                {
+                    "dist_id": 262,
+                    "dist_name": "Jamalpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 263,
+                    "dist_name": "	Manteswar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 264,
+                    "dist_name": "	Kalna",
+                    "state": 28
+                },
+                {
+                    "dist_id": 265,
+                    "dist_name": "Memari",
+                    "state": 28
+                },
+                {
+                    "dist_id":266,
+                    "dist_name": "Bardhaman Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 267,
+                    "dist_name": "Bhatar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 268,
+                    "dist_name": "Purbasthali Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 269,
+                    "dist_name": "Purbasthali Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 270,
+                    "dist_name": "Katwa",
+                    "state": 28
+                },
+                {
+                    "dist_id": 271,
+                    "dist_name": "Ketugram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 272,
+                    "dist_name": "Mangalkot",
+                    "state": 28
+                },
+                {
+                    "dist_id": 273,
+                    "dist_name": "Ausgram",
+                    "state": 28
+                },
+                {
+                    "dist_id": 274,
+                    "dist_name": "Galsi",
+                    "state": 28
+                },
+                
+                {
+                    "dist_id": 275,
+                    "dist_name": "Pandaveswar",
+                    "state": 28
+                },
+                {
+                    "dist_id":276,
+                    "dist_name": "Durgapur Purba",
+                    "state": 28
+                },
+                {
+                    "dist_id": 277,
+                    "dist_name": "Durgapur Paschim",
+                    "state": 28
+                },
+                {
+                    "dist_id": 278,
+                    "dist_name": "Raniganj",
+                    "state": 28
+                },
+                {
+                    "dist_id": 279,
+                    "dist_name": "	Jamuria",
+                    "state": 28
+                },
+                {
+                    "dist_id": 280,
+                    "dist_name": "	Asansol Dakshin",
+                    "state": 28
+                },
+                {
+                    "dist_id": 281,
+                    "dist_name": "	Asansol Uttar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 282,
+                    "dist_name": "Kulti",
+                    "state": 28
+                },
+                {
+                    "dist_id": 283,
+                    "dist_name": " 	Barabani",
+                    "state": 28
+                },
+                {
+                    "dist_id": 284,
+                    "dist_name": "Dubrajpur",
+                    "state": 28
+                }, 
+                {
+                    "dist_id": 285,
+                    "dist_name": "	Suri",
+                    "state": 28
+                },
+                {
+                    "dist_id":286,
+                    "dist_name": "Bolpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 287,
+                    "dist_name": "	Nanoor",
+                    "state": 28
+                },
+                {
+                    "dist_id": 288,
+                    "dist_name": "	Labpur",
+                    "state": 28
+                },
+                {
+                    "dist_id": 289,
+                    "dist_name": "	Sainthia",
+                    "state": 28
+                },
+                {
+                    "dist_id": 290,
+                    "dist_name": "Mayureswar",
+                    "state": 28
+                },
+                {
+                    "dist_id": 291,
+                    "dist_name": "	Rampurhat",
+                    "state": 28
+                },
+                {
+                    "dist_id": 292,
+                    "dist_name": "	Hansan",
+                    "state": 28
+                },
+                {
+                    "dist_id": 293,
+                    "dist_name": " Nalhati",
+                    "state": 28
+                },
+                {
+                    "dist_id": 294,
+                    "dist_name": "Murarai",
+                    "state": 28
+                }
+               
+            ]
         },
     ]
 

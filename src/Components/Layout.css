@@ -803,6 +803,8 @@ letter-spacing: 0em;
     }
     .map_section {
         height: auto !important;
+        position: relative;
+        top:8vw;
     
     }
     
