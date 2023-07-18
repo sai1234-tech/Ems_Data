@@ -14041,12 +14041,7 @@ function Layout1() {
     }
     return (
         <div>
-            <Helmet>
-                <title>
-                    Voter Management
-                </title>
-                <meta name="description" content="Want to know about your winning Assembly/Parliament Constituency" />
-            </Helmet>
+
             <div class="header-background">
                 <header class="header ">
                     <div class="logo-wrapper">
