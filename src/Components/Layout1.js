@@ -20449,7 +20449,7 @@ function Layout1(props) {
                 <div className="socia_main_block">
 
                     <div className="social_icons">
-                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-facebook" ></a>
                         <a href="#" class="fa fa-youtube-play"></a>
                         <a href="#" class="fa fa-instagram"></a>
                     </div>

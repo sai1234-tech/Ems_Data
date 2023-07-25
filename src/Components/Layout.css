@@ -559,18 +559,35 @@ select {
     left:5vw;
     top:-8vw;
 }
+
+.fa:focus{
+    /* color:none!important; */
+}
 .fa:hover {
-    opacity: 0.7;
+    /* opacity: 0.7; */
+    /* color:red */
+}
+.social_icons a:hover {
+    color: white
+}
+.social_icons a:after {
+    color: #000000;
 }
 .fa-facebook {
     background: #FFFFFF;
-  color: white;
   color: #0C1824;
   font-size:2vw;
   width: 2vw;
   height:auto;
   text-align: center;
   border-radius: 50%;
+}
+.fa-facebook:hover {
+    color: #000 !important;;
+    /* background-color: white; */
+}
+.fa-facebook:after {
+    /* color:red */
 }
 .fa-youtube-play {
     font-size:2vw;
