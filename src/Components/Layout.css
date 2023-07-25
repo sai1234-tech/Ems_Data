@@ -732,15 +732,16 @@ letter-spacing: 0em;
     .header-background {
         display: none;
     }
+
     .mob_menu_navbar {
         height: 15vw;
         background: #FFF;
         background: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(152, 152, 152, 0.25);
-        /* background-color: red; */
         width: 100%;
         position: fixed;
         z-index: 9999;
+        top: -0.5vw;
     }
     .logo_mobile img {
         width: 30vw;
@@ -756,6 +757,8 @@ letter-spacing: 0em;
         height: auto;
         top: -8.16vw;
 
+    }
+    .mob-wrapper{
     }
     /* .mob-open{
         opacity: 1;
@@ -783,6 +786,7 @@ letter-spacing: 0em;
         gap: 4vw;
         z-index: 1040;
         background: #F3F5F8;
+
         padding: 8vw;
         font-size: 4.4444vw;
         font-family: Montserrat;

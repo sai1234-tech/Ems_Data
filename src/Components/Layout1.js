@@ -29,8 +29,10 @@ import ClipLoader from "react-spinners/ClipLoader";
 // import countries from './data.json';
 import Popup from 'reactjs-popup';
 import { Helmet } from 'react-helmet';
+// import {DATA} from '../Components/data'
+function Layout1(props) {
+    // const {productName,price,name} = props.data;
 
-function Layout1() {
     const [isOpened, setIsOpened] = useState(false);
     //countries are state
     const [country, setCountry] = useState('');
@@ -19981,9 +19983,6 @@ function Layout1() {
     const changeCountry = (event, selectedOption) => {
         setCountry(event.target.value);
         setCountry(selectedOption)
-
-        // setStates(countries.find(ctr => ctr.name === event.target.value).states)
-        //  console.log('selected State:', states)
         const selectedCountry = countries.find(ctr => ctr.name === event.target.value);
         if (selectedCountry) {
             setStates(selectedCountry.states);
@@ -19993,152 +19992,20 @@ function Layout1() {
             setStates([]);
         }
         setSelected(selectedOption);
-        //  console.log(`Option selected:`, selectedOption);
-        // console.log(`Option selected:`, country);
 
     }
 
     const changeState = (event, selectedOption) => {
-        // event.preventDefault();
         setState(event.target.value)
         setState(selectedOption)
         console.log('selected Constituency:', constituencyList)
-        //filder city city from state on slect
-        // setCities(states.find(state => state.name === event.target.value).cities);
+       
     }
-
-
 
     const changeCity = (event) => {
         setCity(event.target.value)
     }
     const [selectedOption, setSelectedOption] = useState('');
-
-    const [allstates, setAllstates] = useState([])
-
-    const AllStates = [
-        {
-            "Id": "1",
-            "Name": "Andhra Pradesh",
-            "value": "0"
-        },
-        {
-            "Id": "2",
-            "Name": "Arunachal Pradesh",
-            "value": "0"
-
-        },
-        {
-            "Id": "3",
-            "Name": "Assam",
-            "value": "0"
-
-        },
-        {
-            "Id": "4",
-            "Name": "Bihar",
-            "value": "0"
-
-        },
-        {
-            "Id": "5",
-            "Name": "Chhattisgarh"
-        },
-        {
-            "Id": "6",
-            "Name": "Goa"
-        },
-        {
-            "Id": "7",
-            "Name": "Gujarat"
-        },
-        {
-            "Id": "8",
-            "Name": "Haryana"
-        },
-        {
-            "Id": "9",
-            "Name": "Himachal Pradesh"
-        },
-        {
-            "Id": "10",
-            "Name": "Jharkhand"
-        },
-        {
-            "Id": "11",
-            "Name": "Karnataka"
-        },
-        {
-            "Id": "12",
-            "Name": "Kerla"
-        },
-        {
-            "Id": "13",
-            "Name": "Madhya Pradesh"
-        },
-        {
-            "Id": "14",
-            "Name": "Maharashtra"
-        },
-        {
-            "Id": "15",
-            "Name": "Manipur"
-        },
-        {
-            "Id": "16",
-            "Name": "Meghalaya"
-        },
-        {
-            "Id": "17",
-            "Name": "Mizoram"
-        },
-        {
-            "Id": "18",
-            "Name": "Nagaland"
-        },
-        {
-            "Id": "19",
-            "Name": "Odisha"
-        },
-        {
-            "Id": "20",
-            "Name": "Punjab"
-        },
-        {
-            "Id": "21",
-            "Name": "Rajasthan"
-        },
-        {
-            "Id": "22",
-            "Name": "Sikkim"
-        },
-        {
-            "Id": "23",
-            "Name": "Tamil Nadu"
-        },
-        {
-            "Id": "24",
-            "Name": "Telangana"
-        },
-        {
-            "Id": "25",
-            "Name": "Tripura"
-        },
-        {
-            "Id": "26",
-            "Name": "Uttarakhand"
-        },
-        {
-            "Id": "27",
-            "Name": "Uttar Pradesh"
-        },
-        {
-            "Id": "28",
-            "Name": "West Bengal"
-        },
-
-    ]
-
     const [fname, setFname] = useState('');
     const [lname, setLname] = useState('');
     const [email, setEmail] = useState('');
@@ -20228,22 +20095,7 @@ function Layout1() {
     }
 
 
-
-
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-            setLoading(false)
-
-        }, 5000)
-    }, [])
-
-
-    const capture = () => {
-        alert('Greet Capture')
-    }
+   
     return (
         <div>
 
@@ -20259,7 +20111,7 @@ function Layout1() {
                             <a href="#">Home</a>
                             <a href="#download_data_inexcel">Voter Data</a>
                             <a href="#footer">Contact Us</a>
-                            <a href="#">
+                            <a href="#https://electionmanagementsystem.com/contactus">
                                 <button type="button" className="reach"
                                     data-toggle="modal"
                                     data-target="#get_trained"
@@ -20293,7 +20145,7 @@ function Layout1() {
 
                                     {/* <a href="#" class="mob-list__item">Contact Us</a> */}
                                     {/* <a href="#" class="mob-list__item">Go to Cart</a> */}
-                                    <a href="#">
+                                    <a href="#https://electionmanagementsystem.com/contactus">
                                         <button type="button"
                                             className="reach_mobile"
                                             data-toggle="modal"
@@ -20320,7 +20172,9 @@ function Layout1() {
                                 winning <strong class="assemble">Assembly/Parliament Constituency</strong></span>
                         </div>
                         <div className="reachbutton_section">
-                            <button type="button" className="reach_out_butn"
+                            <button type="button" 
+                            
+                            className="reach_out_butn"
                                 data-toggle="modal"
                                 data-target="#get_trained"
                             >
@@ -20441,6 +20295,8 @@ function Layout1() {
                                     )
                                 })}
                             </select>
+                           
+                            {/* {name} */}
                         </div>
                     </div>
                     <div class="col-md-5 styled-select styled_select2 mt-5">
@@ -20470,7 +20326,7 @@ function Layout1() {
                             </div>
                         </div>
                     </div>
-
+                    {/* <b>Product Name:{productName}</b> */}
                     <div className="maped_data">
                         <form>
                             <div class="row">
@@ -20499,7 +20355,7 @@ function Layout1() {
                                 </div>
 
                                 <div class="col-md-6" >
-                                    <div className=" states_block2">
+                                     <div className=" states_block2">
 
                                         {states ? states.map((state) => (
                                             <div className="scroll "
@@ -20508,23 +20364,12 @@ function Layout1() {
                                                 onChange={changeState}
                                                 name="selected_constituency"
                                             >
-                                                {/* <Popup trigger={<a>
-                                                    <option value={state.dist_id} className="scrollable-element2">{state.dist_name}</option>
-                                                </a>}>
-                                                    <div>Popup content here !!</div>
-
-                                                </Popup> */}
-                                                {/* Selected Constituency ${selectedConstituency} */}
+                                             
                                                 <option value={state.dist_id} className="scrollable-element2"
                                                     data-toggle="modal"
                                                     data-target="#get_constituency"  >{state.dist_name}</option>
 
                                             </div>)) : null}
-
-                                        {/* <button type="button" className="reach_out_button"
-                                    data-toggle="modal" data-target="#get_trained">
-                                    Reach out to us
-                                </button> */}
 
                                     </div>
                                 </div>
