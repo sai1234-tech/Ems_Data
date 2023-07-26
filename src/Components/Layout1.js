@@ -30,7 +30,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import Popup from 'reactjs-popup';
 import { Helmet } from 'react-helmet';
 // import {DATA} from '../Components/data'
-function Layout1(props) {
+function Layout1({ dataList }) {
     // const {productName,price,name} = props.data;
 
     const [isOpened, setIsOpened] = useState(false);
@@ -12807,7 +12807,7 @@ function Layout1(props) {
                     "dist_name": "Shutrana",
                     "state": 20
                 }
-                
+
             ]
         },
         {
@@ -13823,7 +13823,7 @@ function Layout1(props) {
                     "dist_name": "Manohar thana",
                     "state": 21
                 }
-                
+
             ]
         },
         {
@@ -16827,7 +16827,7 @@ function Layout1(props) {
                     "dist_name": "	Chharra",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 75,
                     "dist_name": "Koli",
@@ -16878,7 +16878,7 @@ function Layout1(props) {
                     "dist_name": "Mathura",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 85,
                     "dist_name": "Baldev (SC)",
@@ -16929,7 +16929,7 @@ function Layout1(props) {
                     "dist_name": "Bah",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 95,
                     "dist_name": "Tundla (SC)",
@@ -17130,7 +17130,7 @@ function Layout1(props) {
                     "dist_name": "Powayan (SC)",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 135,
                     "dist_name": "Shahjahanpur",
@@ -17231,7 +17231,7 @@ function Layout1(props) {
                     "dist_name": "Sawayazpur",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 155,
                     "dist_name": "Shahabad",
@@ -17332,7 +17332,7 @@ function Layout1(props) {
                     "dist_name": "Lucknow Central",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 175,
                     "dist_name": "Lucknow Cantt",
@@ -17433,7 +17433,7 @@ function Layout1(props) {
                     "dist_name": "Farrukhabad",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 195,
                     "dist_name": "Bhojpur",
@@ -17534,7 +17534,7 @@ function Layout1(props) {
                     "dist_name": "Arya Nagar",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 215,
                     "dist_name": "Kidwai Nagar",
@@ -17635,7 +17635,7 @@ function Layout1(props) {
                     "dist_name": "Naraini (SC)",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 235,
                     "dist_name": "Banda",
@@ -17736,7 +17736,7 @@ function Layout1(props) {
                     "dist_name": "Phaphamau ",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 255,
                     "dist_name": "Soraon (SC)",
@@ -17837,7 +17837,7 @@ function Layout1(props) {
                     "dist_name": "Bikapur",
                     "state": 27,
                 },
-                
+
                 {
                     "dist_id": 275,
                     "dist_name": "Ayodhya",
@@ -18483,7 +18483,7 @@ function Layout1(props) {
                     "dist_name": " 	Duddhi (ST)",
                     "state": 27,
                 },
-        
+
             ]
         },
         {
@@ -18860,7 +18860,7 @@ function Layout1(props) {
                     "dist_name": "	Baharampur",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 75,
                     "dist_name": "	Hariharpara",
@@ -18911,7 +18911,7 @@ function Layout1(props) {
                     "dist_name": "	Nabadwip",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 85,
                     "dist_name": " Krishnanagar Dakshin",
@@ -18962,7 +18962,7 @@ function Layout1(props) {
                     "dist_name": "Bagdah",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 95,
                     "dist_name": "	Bangaon Uttar",
@@ -19163,7 +19163,7 @@ function Layout1(props) {
                     "dist_name": "	Raidighi",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 135,
                     "dist_name": "Mandirbazar",
@@ -19264,7 +19264,7 @@ function Layout1(props) {
                     "dist_name": "Behala Paschim",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 155,
                     "dist_name": "Maheshtala",
@@ -19365,7 +19365,7 @@ function Layout1(props) {
                     "dist_name": "Sankrail",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 175,
                     "dist_name": "	Panchla",
@@ -19466,7 +19466,7 @@ function Layout1(props) {
                     "dist_name": "Chanditala",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 195,
                     "dist_name": "Jangipara",
@@ -19567,7 +19567,7 @@ function Layout1(props) {
                     "dist_name": "	Bhagabanpur",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 215,
                     "dist_name": "Khejuri",
@@ -19668,7 +19668,7 @@ function Layout1(props) {
                     "dist_name": "Salboni",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 235,
                     "dist_name": "	Keshpur",
@@ -19769,7 +19769,7 @@ function Layout1(props) {
                     "dist_name": "	Onda ",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 255,
                     "dist_name": "	Bishnupur",
@@ -19870,7 +19870,7 @@ function Layout1(props) {
                     "dist_name": "Galsi",
                     "state": 28
                 },
-                
+
                 {
                     "dist_id": 275,
                     "dist_name": "Pandaveswar",
@@ -19971,7 +19971,7 @@ function Layout1(props) {
                     "dist_name": "Murarai",
                     "state": 28
                 }
-               
+
             ]
         },
     ]
@@ -19999,7 +19999,7 @@ function Layout1(props) {
         setState(event.target.value)
         setState(selectedOption)
         console.log('selected Constituency:', constituencyList)
-       
+
     }
 
     const changeCity = (event) => {
@@ -20095,7 +20095,7 @@ function Layout1(props) {
     }
 
 
-   
+
     return (
         <div>
 
@@ -20112,7 +20112,7 @@ function Layout1(props) {
                             <a href="#download_data_inexcel">Voter Data</a>
                             <a href="#footer">Contact Us</a>
                             <a href="#https://electionmanagementsystem.com/contactus">
-                                <button type="button" className="reach"
+                                <button type="button" className="reach animated-border-button"
                                     data-toggle="modal"
                                     data-target="#get_trained"
                                 > Reach out to us
@@ -20172,9 +20172,9 @@ function Layout1(props) {
                                 winning <strong class="assemble">Assembly/Parliament Constituency</strong></span>
                         </div>
                         <div className="reachbutton_section">
-                            <button type="button" 
-                            
-                            className="reach_out_butn"
+                            <button type="button"
+
+                                className="reach_out_butn"
                                 data-toggle="modal"
                                 data-target="#get_trained"
                             >
@@ -20289,14 +20289,21 @@ function Layout1(props) {
                             <select className="select" value={country} onChange={changeCountry}
                             >
                                 <option>Select State</option>
+
                                 {countries.map((ctr) => {
                                     return (
                                         <option key={ctr.name}>{ctr.name}</option>
                                     )
                                 })}
+                                {/* {
+                                    dataList.map((dataList) => {
+                                        return (
+                                            <option key="dataList.name">{dataList.name}</option>
+                                        )
+                                    })
+                                } */}
                             </select>
-                           
-                            {/* {name} */}
+
                         </div>
                     </div>
                     <div class="col-md-5 styled-select styled_select2 mt-5">
@@ -20307,6 +20314,17 @@ function Layout1(props) {
                                 {states ? states.map((state) => (
                                     <option value={state.dist_id}>{state.dist_name}</option>
                                 )) : null}
+                                {/* {
+                                    dataList.states.map((states,index) => 
+                                    {
+                                        return (
+                                            <div>
+                                                 <option>{states.dist_name}</option>
+                                            </div>
+                                        )
+                                    }
+                                    )
+                                } */}
                             </select>
                         </div>
                     </div>
@@ -20355,7 +20373,7 @@ function Layout1(props) {
                                 </div>
 
                                 <div class="col-md-6" >
-                                     <div className=" states_block2">
+                                    <div className=" states_block2">
 
                                         {states ? states.map((state) => (
                                             <div className="scroll "

@@ -1,12 +1,13 @@
 import Layout1 from './Components/Layout1'
-// import Layout2 from './Components/Layout2'
-import Chat from './Components/Chat'
+// import Chat from './Components/Chat'
+import DATA from './Components/data';
 function App() {
+  const {dataList} = DATA
   return (
     <div className="App">
-     <Layout1/>
-     <Chat/>
-     {/* <Layout2/> */}
+      {/* <Layout1/> */}
+     <Layout1 dataList={dataList}/>
+     {/* <Chat/> */}
     </div>
   );
 }
