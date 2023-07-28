@@ -20295,15 +20295,19 @@ function Layout1({ dataList }) {
                                         <option key={ctr.name}>{ctr.name}</option>
                                     )
                                 })}
-                                {/* {
-                                    dataList.map((dataList) => {
-                                        return (
-                                            <option key="dataList.name">{dataList.name}</option>
-                                        )
-                                    })
-                                } */}
+                               
                             </select>
-
+                            {/* <select className="select">
+                                <option>Select State</option>
+                                {
+                                dataList.map((dataList) => {
+                                    return (
+                                        <option key="dataList.name">{dataList.name}</option>
+                                    )
+                                })
+                            }
+                            </select> */}
+                         
                         </div>
                     </div>
                     <div class="col-md-5 styled-select styled_select2 mt-5">
@@ -20314,7 +20318,11 @@ function Layout1({ dataList }) {
                                 {states ? states.map((state) => (
                                     <option value={state.dist_id}>{state.dist_name}</option>
                                 )) : null}
-                                {/* {
+
+                
+                            </select>
+
+                            {/* {
                                     dataList.states.map((states,index) => 
                                     {
                                         return (
@@ -20325,7 +20333,6 @@ function Layout1({ dataList }) {
                                     }
                                     )
                                 } */}
-                            </select>
                         </div>
                     </div>
                 </div>

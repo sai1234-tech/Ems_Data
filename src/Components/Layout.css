@@ -975,9 +975,13 @@ letter-spacing: 0em;
     }
     .slect_block {
         margin-top: 10vw;
+        display: block;
+        visibility: visible;
     }
     select {
         height: 10vw !important;
+        display: block;
+        visibility: visible;
     }
     .styled-select {
         margin: 0px 0px 0px 6vw;
@@ -985,12 +989,18 @@ letter-spacing: 0em;
         border: none;
         height: 20vw;
         width: 90vw;
+        display: block;
+        visibility: visible;
     }
     .styled-select select {
         font-size: 4vw;
+        display: block;
+        visibility: visible;
     }
     .styled_select2 {
         margin-top: -2vw !important;
+        display: block;
+        visibility: visible;
     }
     select {
         padding-left: 2vw;
@@ -1001,6 +1011,8 @@ letter-spacing: 0em;
         font-weight: 500;
         font-size: 1.666vw;
         color: #000000;
+        display: block;
+        visibility: visible;
       }
       select option {
         font-family: 'Montserrat';
@@ -1008,6 +1020,8 @@ letter-spacing: 0em;
         font-weight: 500;
         font-size: 5vw;
         color: #000000;
+        display: block;
+        visibility: visible;
     }
       .select-toggle {
         position: relative;
@@ -1015,6 +1029,8 @@ letter-spacing: 0em;
         width: 88vw!important;
         background: #FFFFFF;
         border: 2px solid #FFFFFF;
+        display: block;
+        visibility: visible;
       }
   .select-toggle::after {
     position: absolute;
@@ -1027,6 +1043,8 @@ letter-spacing: 0em;
     border-top: 8px solid #023f55;
     content: "";
     pointer-events: none;
+    display: block;
+    visibility: visible;
   }
   .select-toggle select {
     height: 3vw;
@@ -1040,18 +1058,24 @@ letter-spacing: 0em;
   }
     .state_contiuncey_child {
         text-align: center;
+        display: block;
+        visibility: visible;
     }
     .maped_data {
         height: 100vw;
     }
     .scrollable-element {
         height: 100vw;
+        display: block;
+        visibility: visible;
     }
     .constituency {
         position: relative;
         top: 120vw !important;
         display: flex;
         justify-content: center;
+        display: block;
+        visibility: visible;
     }
     .states_block2 {
         height: 100vw !important;
@@ -1059,6 +1083,8 @@ letter-spacing: 0em;
         border-radius: 3px;
         border: 1px solid #D9D9D9;
         background: #FFF;
+        display: block;
+        visibility: visible;
         /* margin-left:-30px!important;
         background-color: red!important; */
     }
