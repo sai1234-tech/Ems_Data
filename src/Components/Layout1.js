@@ -30,7 +30,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import Popup from 'reactjs-popup';
 import { Helmet } from 'react-helmet';
 // import {DATA} from '../Components/data'
-function Layout1({ dataList }) {
+function Layout1() {
     // const {productName,price,name} = props.data;
 
     const [isOpened, setIsOpened] = useState(false);
@@ -41,15 +41,33 @@ function Layout1({ dataList }) {
 
     //for filter the state and citys
     const [states, setStates] = useState([]);
-    const [cities, setCities] = useState([])
+    const [cities, setCities] = useState([]);
     const [selected, setSelected] = useState(null);
     const [selectedState, setselectedState] = useState();
     const [selectedConstituency, setselectedConstituency] = useState();
-    const form = useRef();
 
+    const [selectedOption, setSelectedOption] = useState('');
+
+    const [fname, setFname] = useState('');
+    const [lname, setLname] = useState('');
+    const [email, setEmail] = useState('');
+    const [mobile, setMobile] = useState('');
+    const [formconstituency, setFormconstituency] = useState('');
+    const [description, setDescription] = useState('');
+
+    const [stateList, setStateList] = useState('');
+    const [constituencyList, setConstituencyList] = useState('');
+
+
+    const [selectedCountry, setSelectedCountry] = useState('');
+    const [stateNames, setStateNames] = useState([]);
+
+    const [allstatevalues, setallstateValues]=useState(null)
+
+
+    const form = useRef();
     const handleOpenClick = () => {
         setIsOpened(!isOpened);
-
         if (isOpened === true) {
         }
         if (isOpened === false) {
@@ -12220,7 +12238,7 @@ function Layout1({ dataList }) {
         {
             "Id": "20",
             name: "Punjab",
-            states:[
+            states: [
                 {
                     "dist_id": 1,
                     "dist_name": "Sujanpur",
@@ -12813,7 +12831,7 @@ function Layout1({ dataList }) {
         {
             "Id": "21",
             name: "Rajasthan",
-            states:[
+            states: [
                 {
                     "dist_id": 1,
                     "dist_name": "Sadulshahar",
@@ -13829,7 +13847,7 @@ function Layout1({ dataList }) {
         {
             "Id": "22",
             name: "Sikkim",
-            states:[
+            states: [
                 {
                     "dist_id": 1,
                     "dist_name": "Yoksam-Tashiding",
@@ -16456,7 +16474,7 @@ function Layout1({ dataList }) {
         {
             "Id": "27",
             name: "Uttar Pradesh",
-            states:[
+            states: [
                 {
                     "dist_id": 1,
                     "dist_name": "Behat",
@@ -17036,7 +17054,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":116,
+                    "dist_id": 116,
                     "dist_name": "Shekhpur",
                     "state": 27,
                 },
@@ -17086,7 +17104,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":126,
+                    "dist_id": 126,
                     "dist_name": "Anola",
                     "state": 27,
                 },
@@ -17137,7 +17155,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":136,
+                    "dist_id": 136,
                     "dist_name": "Dadraul",
                     "state": 27,
                 },
@@ -17187,7 +17205,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":146,
+                    "dist_id": 146,
                     "dist_name": "Sitapur",
                     "state": 27,
                 },
@@ -17238,7 +17256,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":156,
+                    "dist_id": 156,
                     "dist_name": "Hardoi",
                     "state": 27,
                 },
@@ -17288,7 +17306,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":166,
+                    "dist_id": 166,
                     "dist_name": "Bhagwantnagar",
                     "state": 27,
                 },
@@ -17339,7 +17357,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":176,
+                    "dist_id": 176,
                     "dist_name": "Mohanlalganj (SC)",
                     "state": 27,
                 },
@@ -17389,7 +17407,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":186,
+                    "dist_id": 186,
                     "dist_name": "Amethi",
                     "state": 27,
                 },
@@ -17440,7 +17458,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":196,
+                    "dist_id": 196,
                     "dist_name": "Chhibramau",
                     "state": 27,
                 },
@@ -17490,7 +17508,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":206,
+                    "dist_id": 206,
                     "dist_name": "Akbarpur-Raniya",
                     "state": 27,
                 },
@@ -17541,7 +17559,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":216,
+                    "dist_id": 216,
                     "dist_name": "Kanpur Cantt",
                     "state": 27,
                 },
@@ -17551,7 +17569,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":218,
+                    "dist_id": 218,
                     "dist_name": "Ghatampur (SC)",
                     "state": 27,
                 },
@@ -17591,7 +17609,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":226,
+                    "dist_id": 226,
                     "dist_name": "Lalitpur",
                     "state": 27,
                 },
@@ -17642,7 +17660,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":236,
+                    "dist_id": 236,
                     "dist_name": "Chitrakoot",
                     "state": 27,
                 },
@@ -17692,7 +17710,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":246,
+                    "dist_id": 246,
                     "dist_name": "Kunda",
                     "state": 27,
                 },
@@ -17743,7 +17761,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":256,
+                    "dist_id": 256,
                     "dist_name": "Phulpur",
                     "state": 27,
                 },
@@ -17793,7 +17811,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":266,
+                    "dist_id": 266,
                     "dist_name": "Kursi",
                     "state": 27,
                 },
@@ -17844,7 +17862,7 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":276,
+                    "dist_id": 276,
                     "dist_name": "Goshainganj",
                     "state": 27,
                 },
@@ -17887,14 +17905,14 @@ function Layout1({ dataList }) {
                     "dist_id": 284,
                     "dist_name": "Matera",
                     "state": 27,
-                }, 
+                },
                 {
                     "dist_id": 285,
                     "dist_name": "Bahraich",
                     "state": 27,
                 },
                 {
-                    "dist_id":286,
+                    "dist_id": 286,
                     "dist_name": "Payagpur",
                     "state": 27,
                 },
@@ -17937,14 +17955,14 @@ function Layout1({ dataList }) {
                     "dist_id": 294,
                     "dist_name": "Balrampur (SC)",
                     "state": 27,
-                }, 
+                },
                 {
                     "dist_id": 295,
                     "dist_name": "Mehnaun",
                     "state": 27,
                 },
                 {
-                    "dist_id":296,
+                    "dist_id": 296,
                     "dist_name": "Gonda",
                     "state": 27,
                 },
@@ -17987,14 +18005,14 @@ function Layout1({ dataList }) {
                     "dist_id": 304,
                     "dist_name": "Bansi",
                     "state": 27,
-                }, 
+                },
                 {
                     "dist_id": 305,
                     "dist_name": "Itwa",
                     "state": 27,
                 },
                 {
-                    "dist_id":306,
+                    "dist_id": 306,
                     "dist_name": "Domariyaganj",
                     "state": 27,
                 },
@@ -18037,14 +18055,14 @@ function Layout1({ dataList }) {
                     "dist_id": 314,
                     "dist_name": "Dhanghata (SC)",
                     "state": 27,
-                }, 
+                },
                 {
                     "dist_id": 315,
                     "dist_name": "Pharenda",
                     "state": 27,
                 },
                 {
-                    "dist_id":316,
+                    "dist_id": 316,
                     "dist_name": "Nautanwa",
                     "state": 27,
                 },
@@ -18087,14 +18105,14 @@ function Layout1({ dataList }) {
                     "dist_id": 324,
                     "dist_name": "Sahajanwa",
                     "state": 27,
-                }, 
+                },
                 {
-                    "dist_id":325,
+                    "dist_id": 325,
                     "dist_name": "Khajani (SC)",
                     "state": 27,
                 },
                 {
-                    "dist_id":326,
+                    "dist_id": 326,
                     "dist_name": "Chauri-Chaura",
                     "state": 27,
                 },
@@ -18139,12 +18157,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":335,
+                    "dist_id": 335,
                     "dist_name": "Ramkola (SC)",
                     "state": 27,
                 },
                 {
-                    "dist_id":336,
+                    "dist_id": 336,
                     "dist_name": "Rudrapur",
                     "state": 27,
                 },
@@ -18189,12 +18207,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":345,
+                    "dist_id": 345,
                     "dist_name": "Sagri",
                     "state": 27,
                 },
                 {
-                    "dist_id":346,
+                    "dist_id": 346,
                     "dist_name": "Mubarakpur",
                     "state": 27,
                 },
@@ -18239,12 +18257,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":355,
+                    "dist_id": 355,
                     "dist_name": "Muhammadabad-Gohna (SC)",
                     "state": 27,
                 },
                 {
-                    "dist_id":356,
+                    "dist_id": 356,
                     "dist_name": "Mau",
                     "state": 27,
                 },
@@ -18289,12 +18307,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":365,
+                    "dist_id": 365,
                     "dist_name": "Shahganj",
                     "state": 27,
                 },
                 {
-                    "dist_id":366,
+                    "dist_id": 366,
                     "dist_name": "Jaunpur",
                     "state": 27,
                 },
@@ -18339,12 +18357,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":375,
+                    "dist_id": 375,
                     "dist_name": "Ghazipur Sadar",
                     "state": 27,
                 },
                 {
-                    "dist_id":376,
+                    "dist_id": 376,
                     "dist_name": "Jangipur",
                     "state": 27,
                 },
@@ -18389,12 +18407,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":385,
+                    "dist_id": 385,
                     "dist_name": "Ajagara (SC)",
                     "state": 27,
                 },
                 {
-                    "dist_id":386,
+                    "dist_id": 386,
                     "dist_name": "Shivpur",
                     "state": 27,
                 },
@@ -18439,12 +18457,12 @@ function Layout1({ dataList }) {
                     "state": 27,
                 },
                 {
-                    "dist_id":395,
+                    "dist_id": 395,
                     "dist_name": "Chhanbey (SC)",
                     "state": 27,
                 },
                 {
-                    "dist_id":396,
+                    "dist_id": 396,
                     "dist_name": "Mirzapur",
                     "state": 27,
                 },
@@ -18489,7 +18507,7 @@ function Layout1({ dataList }) {
         {
             "Id": "28",
             name: "West Bengal",
-            states:[
+            states: [
                 {
                     "dist_id": 1,
                     "dist_name": "Mekliganj",
@@ -19069,7 +19087,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":116,
+                    "dist_id": 116,
                     "dist_name": "Bidhannagar",
                     "state": 28
                 },
@@ -19119,7 +19137,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":126,
+                    "dist_id": 126,
                     "dist_name": "Hingalganj",
                     "state": 28
                 },
@@ -19170,7 +19188,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":136,
+                    "dist_id": 136,
                     "dist_name": "Jaynagar",
                     "state": 28
                 },
@@ -19220,7 +19238,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":146,
+                    "dist_id": 146,
                     "dist_name": "	Bishnupur",
                     "state": 28
                 },
@@ -19271,7 +19289,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":156,
+                    "dist_id": 156,
                     "dist_name": "Budge Budge",
                     "state": 28
                 },
@@ -19321,7 +19339,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":166,
+                    "dist_id": 166,
                     "dist_name": "Shyampukur",
                     "state": 28
                 },
@@ -19372,7 +19390,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":176,
+                    "dist_id": 176,
                     "dist_name": "Uluberia Purba",
                     "state": 28
                 },
@@ -19422,7 +19440,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":186,
+                    "dist_id": 186,
                     "dist_name": "	Sreerampur",
                     "state": 28
                 },
@@ -19473,7 +19491,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":196,
+                    "dist_id": 196,
                     "dist_name": "	Haripal",
                     "state": 28
                 },
@@ -19523,7 +19541,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":206,
+                    "dist_id": 206,
                     "dist_name": "Moyna",
                     "state": 28
                 },
@@ -19574,7 +19592,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":216,
+                    "dist_id": 216,
                     "dist_name": "Kanthi Dakshin",
                     "state": 28
                 },
@@ -19584,7 +19602,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":218,
+                    "dist_id": 218,
                     "dist_name": "Egra",
                     "state": 28
                 },
@@ -19624,7 +19642,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":226,
+                    "dist_id": 226,
                     "dist_name": "Sabang",
                     "state": 28
                 },
@@ -19675,7 +19693,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":236,
+                    "dist_id": 236,
                     "dist_name": "Medinipur",
                     "state": 28
                 },
@@ -19725,7 +19743,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":246,
+                    "dist_id": 246,
                     "dist_name": "Raghunathpur",
                     "state": 28
                 },
@@ -19776,7 +19794,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":256,
+                    "dist_id": 256,
                     "dist_name": "Katulpur",
                     "state": 28
                 },
@@ -19826,7 +19844,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":266,
+                    "dist_id": 266,
                     "dist_name": "Bardhaman Uttar",
                     "state": 28
                 },
@@ -19877,7 +19895,7 @@ function Layout1({ dataList }) {
                     "state": 28
                 },
                 {
-                    "dist_id":276,
+                    "dist_id": 276,
                     "dist_name": "Durgapur Purba",
                     "state": 28
                 },
@@ -19920,14 +19938,14 @@ function Layout1({ dataList }) {
                     "dist_id": 284,
                     "dist_name": "Dubrajpur",
                     "state": 28
-                }, 
+                },
                 {
                     "dist_id": 285,
                     "dist_name": "	Suri",
                     "state": 28
                 },
                 {
-                    "dist_id":286,
+                    "dist_id": 286,
                     "dist_name": "Bolpur",
                     "state": 28
                 },
@@ -19976,9 +19994,16 @@ function Layout1({ dataList }) {
         },
     ]
 
+    const [countrystates, setCountryState] = useState([])
     useEffect(() => {
-        setCountry()
-    },)
+        const countrydata = countries.map((item) => {
+            return (item)
+        })
+        setCountryState(countrydata)
+    }, [])
+    useEffect(() => {
+        setCountry();
+    }, [])
 
     const changeCountry = (event, selectedOption) => {
         setCountry(event.target.value);
@@ -19991,30 +20016,31 @@ function Layout1({ dataList }) {
             console.log('No matching country found');
             setStates([]);
         }
-        setSelected(selectedOption);
+        setSelected(selectedOption);  
+    }
 
+
+    const handleCountryClick = (event, countryName) => {
+        console.log("Selected Country Name:", countryName);
+        const countryDataList = countries.find((ctrs) => ctrs.name === countryName);
+        const countrystatevalues =countryDataList.states;
+        // const statevalues =  countrystatevalues.map((items)=>{
+        //     return(items.dist_name)
+        // })
+        setallstateValues(countrystatevalues)
+    };
+    
+
+    const changeCity = (event) => {
+        setCity(event.target.value)
     }
 
     const changeState = (event, selectedOption) => {
         setState(event.target.value)
         setState(selectedOption)
         console.log('selected Constituency:', constituencyList)
-
     }
 
-    const changeCity = (event) => {
-        setCity(event.target.value)
-    }
-    const [selectedOption, setSelectedOption] = useState('');
-    const [fname, setFname] = useState('');
-    const [lname, setLname] = useState('');
-    const [email, setEmail] = useState('');
-    const [mobile, setMobile] = useState('');
-    const [formconstituency, setFormconstituency] = useState('');
-    const [description, setDescription] = useState('');
-
-    const [stateList, setStateList] = useState('');
-    const [constituencyList, setConstituencyList] = useState('');
 
     const handleFirstNameChange = (event) => {
         setFname(event.target.value);
@@ -20037,6 +20063,7 @@ function Layout1({ dataList }) {
     const handleDescriptionChange = (event) => {
         setDescription(event.target.value);
     };
+
     const stateListChange = (event) => {
         setStateList(event.target.value);
     };
@@ -20044,12 +20071,17 @@ function Layout1({ dataList }) {
         setConstituencyList(event.target.value)
     }
 
+
     const handleSubmit = (event) => {
         event.preventDefault();
         emailjs.send('service_0ebnbnt', 'template_0mfk3og', {
             name: `firstname:${fname} lastname:${lname}`,
             email: `${email}`,
-            message: `Mobile:${mobile} Constituency:${formconstituency} Description:${description} Selected State: ${selectedState} Selected Constituency ${selectedConstituency}`
+            message: `Mobile:${mobile},
+            Constituency:${formconstituency},
+            Description:${description},
+             Selected State: ${selectedState},
+             Selected Constituency ${selectedConstituency}`
         }, 'SX2CrohSCLcTCWGWO')
             .then((response) => {
                 console.log('Email sent successfully:', response.text);
@@ -20093,8 +20125,6 @@ function Layout1({ dataList }) {
                 console.log(error)
             });
     }
-
-
 
     return (
         <div>
@@ -20229,7 +20259,6 @@ function Layout1({ dataList }) {
                 </div>
             </div>
 
-
             <div className="voters_sheet_section mainsection_download">
                 <img src={NewPin} class="pin_group_download1" />
                 <div class="row">
@@ -20284,55 +20313,25 @@ function Layout1({ dataList }) {
 
                 <div className="row slect_block">
                     <div class="col-md-5 styled-select mt-5">
-
                         <div class="select-toggle" id="select-toggle ">
-                            <select className="select" value={country} onChange={changeCountry}
-                            >
+                            <select className="select" value={country} onChange={changeCountry} >
                                 <option>Select State</option>
-
                                 {countries.map((ctr) => {
                                     return (
                                         <option key={ctr.name}>{ctr.name}</option>
                                     )
                                 })}
-                               
                             </select>
-                            {/* <select className="select">
-                                <option>Select State</option>
-                                {
-                                dataList.map((dataList) => {
-                                    return (
-                                        <option key="dataList.name">{dataList.name}</option>
-                                    )
-                                })
-                            }
-                            </select> */}
-                         
                         </div>
                     </div>
                     <div class="col-md-5 styled-select styled_select2 mt-5">
-
                         <div class="select-toggle" id="select-toggle">
                             <select className="select" value={state} onChange={changeState}>
                                 <option>Select Constituency</option>
                                 {states ? states.map((state) => (
                                     <option value={state.dist_id}>{state.dist_name}</option>
                                 )) : null}
-
-                
                             </select>
-
-                            {/* {
-                                    dataList.states.map((states,index) => 
-                                    {
-                                        return (
-                                            <div>
-                                                 <option>{states.dist_name}</option>
-                                            </div>
-                                        )
-                                    }
-                                    )
-                                } */}
                         </div>
                     </div>
                 </div>
@@ -20351,52 +20350,44 @@ function Layout1({ dataList }) {
                             </div>
                         </div>
                     </div>
-                    {/* <b>Product Name:{productName}</b> */}
                     <div className="maped_data">
                         <form>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div className="states_block">
-                                        <div className="scrollable-element ">
-                                            {countries.map((ctr) => {
-                                                return (
-                                                    <div className="allstates_list"
-                                                        onClick={(event) => {
-                                                            changeCountry(event, ctr.name);
-                                                            setselectedState(ctr.name);
-                                                        }}
+                                        <div className="scrollable-element">
+                                            <div>
+                                                {countries.map((ctrs) => (
+                                                    <div
+                                                        key={ctrs.value}
+                                                        className="allstates_list"
                                                         name="Selected_State"
-                                                        value={stateList}
-                                                        onChange={stateListChange}
-                                                        required
+                                                        onClick={(event) => {
+                                                            handleCountryClick(event, ctrs.name);
+                                                            setselectedState(ctrs.name);
+                                                        }}
                                                     >
-                                                        <option> {ctr.name}</option>
+                                                        {ctrs.name}
                                                     </div>
-                                                )
-                                            })}
+                                                ))}
+                                            </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                                 <div class="col-md-6" >
-                                    <div className=" states_block2">
-
-                                        {states ? states.map((state) => (
-                                            <div className="scroll "
-                                                onClick={(event) => { changeState(event, selectedOption); setselectedConstituency(state.dist_name) }}
-                                                value={constituencyList}
-                                                onChange={changeState}
-                                                name="selected_constituency"
-                                            >
-                                             
-                                                <option value={state.dist_id} className="scrollable-element2"
-                                                    data-toggle="modal"
-                                                    data-target="#get_constituency"  >{state.dist_name}</option>
-
-                                            </div>)) : null}
-
-                                    </div>
+                                <div className="states_block2 ">
+                                        <div>
+                                        {allstatevalues&&allstatevalues.map((items)=>{
+                                            return(
+                                                <div className="scrollable-element2" data-toggle="modal"
+                                                data-target="#get_constituency"
+                                                  onClick={()=>setselectedConstituency(items.dist_name)} >
+                                                    {items.dist_name}
+                                                    </div>
+                                            )            
+                                        })}
+                                        </div>
+                                    </div> 
                                 </div>
 
                             </div>
@@ -20500,9 +20491,6 @@ function Layout1({ dataList }) {
                         </div>
                         <div class="modal-body">
                             <form ref={form} onSubmit={handleSubmit}
-                            // action='https://forms.zohopublic.in/itoconnect/form/ItoConnectLead/formperma/KuFRnT9_kBcIvAlwi6joJFAwVL6qsIniL46PDAjz_iI/htmlRecords/submit'
-                            // name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'
-                            // action="mailto:saikirankushangala@gmail.com"
                             >
                                 <div class="row">
                                     <div class='col-md-6'>
@@ -20614,9 +20602,6 @@ function Layout1({ dataList }) {
                         </div>
                         <div class="modal-body">
                             <form ref={form} onSubmit={handleSubmit}
-                            // action='https://forms.zohopublic.in/itoconnect/form/ItoConnectLead/formperma/KuFRnT9_kBcIvAlwi6joJFAwVL6qsIniL46PDAjz_iI/htmlRecords/submit'
-                            // name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'
-                            // action="mailto:saikirankushangala@gmail.com"
                             >
                                 <div class="row">
                                     <div class='col-md-6'>
