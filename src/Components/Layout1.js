@@ -20428,7 +20428,7 @@ function Layout1() {
                                 </ul>
 
                                 <ul className="footer_list2">
-                                    <li><a href="tel:+91970449297">India - +91 970449297</a></li>
+                                    <li><a href="tel:+917893714719">India - +91 7893714719</a></li>
                                     <li><a href="mailto:info@electionmanagementsystem.com">Email : info@electionmanagementsystem.com</a></li>
                                 </ul>
                             </div>
@@ -20465,7 +20465,7 @@ function Layout1() {
                 <div className="socia_main_block">
 
                     <div className="social_icons">
-                        <a href="#" class="fa fa-facebook" ></a>
+                        <a href="https://www.facebook.com/itoconnectt" class="fa fa-facebook" ></a>
                         <a href="#" class="fa fa-youtube-play"></a>
                         <a href="#" class="fa fa-instagram"></a>
                     </div>
